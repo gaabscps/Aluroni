@@ -1,14 +1,14 @@
 //Reset
-@import "./reset.css";
+@import "./reset.scss";
 
 //Variables
 @import "./variables";
 
 //Components
-@import "../style/components/_cardapio";
-@import "../style/components/_buscador";
-@import "../style/components/_filtros";
-
+@import "../style/components/_cardapio.scss";
+@import "../style/components/_buscador.scss";
+@import "../style/components/_filtros.scss";
+@import "../style/components/_ordenador.scss";
 * {
   font-family: $font;
 }

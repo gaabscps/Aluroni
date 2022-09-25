@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ReactComponent as Logo } from "assets/img/logo.svg";
 import { Buscador } from "./Buscador";
 import { Filtros } from "./Filtros";
+import { Select } from "./Select";
 
 export const Cardapio = () => {
   const [busca, setBusca] = useState("");
@@ -20,6 +21,7 @@ export const Cardapio = () => {
         <Buscador busca={busca} setBusca={setBusca} />
         <div className="cardapio__filtros">
           <Filtros filtro={filtro} setFiltro={setFiltro} />
+          <Select />
         </div>
       </section>
     </main>
