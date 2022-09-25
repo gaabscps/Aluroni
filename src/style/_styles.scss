@@ -1,0 +1,14 @@
+//Reset
+@import "./reset.css";
+
+//Variables
+@import "./variables";
+
+//Components
+@import "../style/components/_cardapio";
+@import "../style/components/_buscador";
+@import "../style/components/_filtros";
+
+* {
+  font-family: $font;
+}
